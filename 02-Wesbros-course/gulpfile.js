@@ -1,13 +1,13 @@
 var gulp = require("gulp");
 var autoprefixer = require("gulp-autoprefixer");
 
-gulp.task("style", function() {
+gulp.task("style", function () {
   gulp
-    .src("style.css")
+    .src("styles/**/*.css")
     .pipe(autoprefixer())
     .pipe(gulp.dest("build"));
 });
 
-gulp.task("watch", function() {
-  gulp.watch("style.css", ["style"]);
+gulp.task("watch", function () {
+  gulp.watch("styles/**/*.css", ["style"]);
 });
