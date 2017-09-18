@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+
     <title>WesBros Course - Flexbox</title>
     <link rel="stylesheet" href="build/style.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
@@ -15,7 +16,13 @@
 
     <div class="wrapper">
 
+        <header class="top">
+            <h1><a href="#">Flexbox Yeah !</a></h1>
+        </header>
+
         <nav class="flex-nav">
+            <a href="#" class="toggleNav"><i class="fa fa-bars"></i>
+                Menu</a>
             <ul>
                 <li><a href="#">Item 01</a></li>
                 <li><a href="#">Item 02</a></li>
@@ -24,13 +31,10 @@
                 <li><a href="#">Item 05</a></li>
                 <li><a href="#">Item 06</a></li>
                 <li class="social">
-                    <a href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="http://twitter.com" target="_blank"><i class="fa fa-linkedin"></i></a>
                 </li>
                 <li class="social">
-                    <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li class="social">
-                    <a href="http://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="http://facebook.com" target="_blank"><i class="fa fa-medium"></i></a>
                 </li>
                 <li class="social">
                     <a href="http://github.com" target="_blank"><i class="fa fa-github"></i></a>
@@ -38,11 +42,34 @@
             </ul>
         </nav>
 
+        <section class="hero">
+            <img src="assets/paysage1.jpg" alt="">
+        </section>
+
+        <section class="details">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolor quos at est omnis hic doloribus nihil
+                illo assumenda laborum mollitia rerum quis repellendus, odit, tempore minus ducimus repudiandae quibusdam.Corrupti
+                pariatur neque quas unde. Qui, reiciendis aperiam ullam quaerat culpa placeat architecto id sapiente blanditiis
+                inventore necessitatibus enim quasi voluptatum harum rem maxime nesciunt ad tenetur, atque ducimus quod?</p>
+        </section>
+
+        <section class="signup">
+            <form action="" class="signup">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Email Adress">
+                <input type="submit" value="Sign me up!">
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy: Nadir Berrara</p>
+        </footer>
+
     </div>
 
 
-
-
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
